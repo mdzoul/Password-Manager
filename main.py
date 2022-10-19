@@ -14,7 +14,7 @@ def gen_password():
 
     nr_letters = random.choices(letters, k=random.randint(8, 10))
     nr_symbols = random.choices(symbols, k=random.randint(2, 4))
-    nr_numbers = random.choices(numbers, k=random.randint(2, 14))
+    nr_numbers = random.choices(numbers, k=random.randint(2, 4))
 
     combine_letnumsym = nr_letters + nr_symbols + nr_numbers
     randomized_letnumsym = random.sample(combine_letnumsym, len(combine_letnumsym))
