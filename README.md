@@ -123,12 +123,6 @@ To change the master password, edit the `MASTER_PASSWORD` variable in the `authe
 
 ---
 
-## License
-
-This project is licensed under the MIT License. You are free to use, modify, and distribute the application with proper attribution.
-
----
-
 ## Author
 
 Based on an original concept sourced externally and expanded significantly by **Zoulaimi**. This version includes enhanced features such as authentication, fuzzy search, dynamic Listbox integration, and improved user interaction.
